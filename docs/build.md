@@ -27,7 +27,7 @@ This is NOT required when developing for web.
     - `brew install rbenv`
     - `rbenv install 2.7.6`
     - `rbenv global 2.7.6`
-    - Add `eval "$(rbenv init - zsh)"` to your `~/.zshrc`
+    - Add `eval "$(rbenv init - bash)"` to your `~/.bashrc`
   - From inside the project directory:
     - `bundler install` (this will install Cocoapods)
 - After initial setup:

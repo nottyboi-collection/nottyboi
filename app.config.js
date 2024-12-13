@@ -43,10 +43,10 @@ module.exports = function (config) {
   return {
     expo: {
       version: VERSION,
-      name: 'Bluesky',
-      slug: 'bluesky',
+      name: 'nottyboi',
+      slug: 'nottyboi',
       scheme: 'bluesky',
-      owner: 'blueskysocial',
+      owner: 'dakota-alexander',
       runtimeVersion: {
         policy: 'appVersion',
       },
@@ -56,7 +56,7 @@ module.exports = function (config) {
       primaryColor: '#1083fe',
       ios: {
         supportsTablet: false,
-        bundleIdentifier: 'xyz.blueskyweb.app',
+        bundleIdentifier: 'me.nottyboi.nottyboi',
         config: {
           usesNonExemptEncryption: false,
         },
@@ -133,7 +133,7 @@ module.exports = function (config) {
       },
       androidStatusBar: {
         barStyle: 'light-content',
-        backgroundColor: '#00000000',
+        backgroundColor: '#000000',
       },
       // Dark nav bar in light mode is better than light nav bar in dark mode
       androidNavigationBar: {
@@ -149,7 +149,7 @@ module.exports = function (config) {
           backgroundColor: '#1185FE',
         },
         googleServicesFile: './google-services.json',
-        package: 'xyz.blueskyweb.app',
+        package: 'me.nottyboi.nottyboi',
         intentFilters: [
           {
             action: 'VIEW',
@@ -167,6 +167,10 @@ module.exports = function (config) {
             category: ['BROWSABLE', 'DEFAULT'],
           },
         ],
+        splash: {
+          backgroundColor: '#FFFFFF',
+        },
+        newArchEnabled: true,
       },
       web: {
         favicon: './assets/favicon.png',
@@ -374,7 +378,7 @@ module.exports = function (config) {
               },
             },
           },
-          projectId: '55bd077a-d905-4184-9c7f-94789ba0f302',
+          projectId: '2d4c54f9-3ef7-4ca7-b31a-581ade2f49c4',
         },
       },
       hooks: {

@@ -1,6 +1,6 @@
 FROM golang:1.22-bullseye AS build-env
 
-WORKDIR /usr/src/social-app
+WORKDIR /usr/src/nottyboi
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -17,7 +17,7 @@ ENV GOEXPERIMENT="loopvar"
 
 # Expo
 ARG EXPO_PUBLIC_BUNDLE_IDENTIFIER
-ENV EXPO_PUBLIC_BUNDLE_IDENTIFIER=${EXPO_PUBLIC_BUNDLE_IDENTIFIER:-dev}
+ENV EXPO_PUBLIC_BUNDLE_IDENTIFIER=${EXPO_PUBLIC_BUNDLE_IDENTIFIER:-me.nottyboi.nottyboi}
 
 COPY . .
 

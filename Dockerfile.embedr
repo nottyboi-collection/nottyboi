@@ -1,6 +1,6 @@
 FROM golang:1.22-bullseye AS build-env
 
-WORKDIR /usr/src/social-app
+WORKDIR /usr/src/nottyboi
 
 ENV DEBIAN_FRONTEND=noninteractive
 
